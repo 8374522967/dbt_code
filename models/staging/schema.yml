@@ -1,0 +1,10 @@
+version: 2
+sources:
+    - name: datafeed
+      database: "{{('dbt_db')}}"
+      schema: staging_layer
+      tables:
+        - name: stg_customerdata
+        - name: stg_payments
+        - name: stg_order
+       
