@@ -11,4 +11,5 @@ sources:
         - name: stg_products
         - name: stg_supplies
         - name: stg_stores
+        - name: emp
        
