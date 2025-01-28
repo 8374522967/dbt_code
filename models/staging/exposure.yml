@@ -1,0 +1,20 @@
+exposures:
+  - name: weekly metrics
+    label: sgovardhan by the week
+    type: dashboard
+    maturity: high
+    description: 
+      for more exposure about project details
+
+    depends_on:
+      - ref('final_business')
+      - ref('order_merge')
+      - ref('order_append')
+      - ref('business_table')
+      - source('datafeed','stg_order')
+      - source('datafeed','stg_customerdata')
+      - source('datafeed','stg_payments')
+    owner:
+      name: SGovardhan
+      email: sgovardhan911@gmail.com
+      
