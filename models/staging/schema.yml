@@ -12,4 +12,5 @@ sources:
         - name: stg_supplies
         - name: stg_stores
         - name: emp
+        - name: customers
        
